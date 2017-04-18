@@ -1,7 +1,10 @@
-# test coverage for  [node-cron (v1.1.3)](http://merencia.com/node-cron/)  [![npm package](https://img.shields.io/npm/v/npmtest-node-cron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-cron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-cron.svg)](https://travis-ci.org/npmtest/node-npmtest-node-cron)
+# npmtest-node-cron
+
+#### test coverage for  [node-cron (v1.1.3)](http://merencia.com/node-cron/)  [![npm package](https://img.shields.io/npm/v/npmtest-node-cron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-cron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-cron.svg)](https://travis-ci.org/npmtest/node-npmtest-node-cron)
+
 #### A simple cron-like task scheduler for Node.js
 
-[![NPM](https://nodei.co/npm/node-cron.png?downloads=true)](https://www.npmjs.com/package/node-cron)
+[![NPM](https://nodei.co/npm/node-cron.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-cron)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-node-cron/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-cron/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-cron/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-cron/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-node-cron/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-node-cron%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-cron/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-cron/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-node-cron%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-cron/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-node-cron/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-node-cron/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-cron/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-cron/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-cron/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-node-cron/build/screenCapture.npmPackageListing.svg)
 
@@ -59,13 +68,11 @@
     "main": "src/node-cron.js",
     "maintainers": [
         {
-            "name": "merencia",
-            "email": "lucas.merencia@gmail.com"
+            "name": "merencia"
         }
     ],
     "name": "node-cron",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/merencia/node-cron.git"
