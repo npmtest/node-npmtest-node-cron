@@ -1,6 +1,6 @@
 # npmtest-node-cron
 
-#### test coverage for  [node-cron (v1.1.3)](http://merencia.com/node-cron/)  [![npm package](https://img.shields.io/npm/v/npmtest-node-cron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-cron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-cron.svg)](https://travis-ci.org/npmtest/node-npmtest-node-cron)
+#### basic test coverage for  [node-cron (v1.1.3)](http://merencia.com/node-cron/)  [![npm package](https://img.shields.io/npm/v/npmtest-node-cron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-cron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-cron.svg)](https://travis-ci.org/npmtest/node-npmtest-node-cron)
 
 #### A simple cron-like task scheduler for Node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-cron/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-cron/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-cron/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-cron/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-cron/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-cron/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-cron/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-cron/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
         "test": "./node_modules/mocha/bin/mocha --recursive"
     },
-    "version": "1.1.3"
+    "version": "1.1.3",
+    "bin": {}
 }
 ```
 
